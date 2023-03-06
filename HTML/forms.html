@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1> <hr />
+    <a href="./index.html"> Home </a> 
+    <br /> <hr />
+    <form>
+        <label for="nome">Seu nome</label>
+        <input type="text" placeholder="Seu nome"/> <br />
+        <br />
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" /> <br/>
+        <br />
+        <label for="telefone">Seu telefone</label>
+        <input type="Tel" placeholder="Seu telefone"/> <br/>
+        <br />
+        <label for="number">Escolha o seu número</label>
+        <input type="number" max="10" min="2" step="2"/> <br/>
+        <br />
+        <label for="file">Anexar arquivo</label>
+        <input type="file"/> <br/>
+        <input type="color"/> <br/>
+        <input type="checkbox" id="checkbox-termos"/> <label>Aceito os termos</label> <br />
+        <p>
+            Qual é a sua cor preferida?
+            <blockquote>
+                <i> "Os comandos abaixo permitem selecionar várias opções" </i>
+            </blockquote>
+        </p>
+        <input type="radio" /> <label>Vermelho</label>
+        <input type="radio" /> <label>Verde</label>
+        <input type="radio" /> <label>Azul</label>
+        <br />
+        <p>
+            Qual é a sua cor preferida?
+            <blockquote>
+                <i> "Os comandos abaixo permitem selecionar apenas uma opção" </i>
+            </blockquote>
+        </p>
+        <input type="radio" name="cor-favorita" id="caro-vermelho" /> <label>Vermelho</label>
+        <input type="radio" name="cor-favorita" id="cor-verde" /> <label>Verde</label>
+        <input type="radio" name="cor-favorita" id="cor-azul" /> <label>Azul</label>
+        <br />
+        <hr />
+        <textarea></textarea> <br />
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+</html>
